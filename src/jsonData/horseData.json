@@ -1,0 +1,47 @@
+
+   { 
+    "horses" : [
+    {
+     "name" : "Stable-1",
+    "horseDetail" : [ 
+       { "id": 1, "name": "Thunder", "image": "/assests/horses/horse2.jpg",  "rating": 4.5 },
+     { "id": 2, "name": "Lightning", "image": "/assests/horses/horse3.jpg",  "rating": 4.2 },
+     { "id": 3, "name": "Blaze", "image": "/assests/horses/horse5.jpg",  "rating": 4.7 }, 
+     { "id": 4, "name": "Storm", "image": "/assests/horses/horse6.jpg",  "rating": 4.3 }]
+   },
+   {
+     "name" : "Stable-2",
+    "horseDetail" : [ 
+       { "id": 1, "name": "Meteor", "image": "/assests/horses/horse8.jpg",  "rating": 4.6 },
+     { "id": 2, "name": "Comet", "image": "/assests/horses/horse14.jpg",  "rating": 4.4 },
+     { "id": 3, "name": "Whirlwind", "image": "/assests/horses/horse13.jpg",  "rating": 4.8},
+     { "id": 4, "name": "Whirlwind", "image": "/assests/horses/horse11.jpg",  "rating": 4.1 }]
+   },
+   {
+     "name" : "Stable-3",
+     "horseDetail" :[ 
+       { "id": 1, "name": "Gale", "image": "/assests/horses/horse11 1.jpg",  "rating": 4.7 }, 
+     { "id": 2, "name": "Cyclone", "image": "/assests/horses/horse22.jpg",  "rating": 4.5 },
+     { "id": 3, "name": "Hurricane", "image": "/assests/horses/horse55.jpg",  "rating": 4.6 },
+     { "id": 4, "name": "Tornado", "image": "/assests/horses/horse222.jpg",  "rating": 4.4 }]
+   },
+   {
+    "name" : "Stable-4",
+    "horseDetail" :[ 
+       { "id": 1, "name": "Tempest", "image": "/assests/horses/horse233.jpg", "rating": 4.2 },
+     { "id": 2, "name": "Gust", "image": "/assests/horses/horse333.jpg",  "rating": 4.3 },
+     { "id": 3, "name": "Zephyr", "image": "/assests/horses/horse4.jpg",  "rating": 4.5 },
+     { "id": 4, "name": "Breeze", "image": "/assests/horses/horse1.jpg",  "rating": 4.7 }]
+   },
+   {
+       "name": "Stable-5",
+     "horseDetail" :[ 
+       { "id": 1, "name": "Athena", "image": "/assests/horses/horse7.jpg",  "rating": 4.8},
+     { "id": 2, "name": "Hera", "image": "/assests/horses/horse17.jpg",  "rating": 4.6 },
+     { "id": 3, "name": "Zeus", "image": "/assests/horses/horse9.jpg",  "rating": 4.4 },
+     { "id": 4, "name": "Apollo", "image": "/assests/horses/horse12.jpg",  "rating": 4.5 }]
+   }
+]
+
+}
+ 

@@ -1,0 +1,214 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+/* Landing Page Styles */
+.landing-page {
+  /* text-align: center; */
+  padding: 40px 20px;
+  /* background-image: url('/images/background.jpg'); */
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  cursor: url('../public/assests/horses/courser.gif');
+}
+
+.landing-page h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Horse Cards Styles */
+/* .horses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+} */
+
+.horse-card {
+  background: rgba(255, 255, 255, 0.8);
+  /* background: white; */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 250px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.horse-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.horse-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.horse-card h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 15px 0;
+}
+
+/* Button Styles */
+.horse-card button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-bottom: 15px;
+  transition: background-color 0.2s ease;
+}
+
+.horse-card button:hover {
+  background-color: #218838;
+}
+
+/* Form Styles */
+form {
+  background: rgba(255, 255, 255, 0.9);
+  /* background: white; */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  text-align: left;
+}
+
+form h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form label {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+form button {
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.2s ease;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+
+
+
+
+
+/* Confirmation Popup Styles */
+.confirmation-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 400px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  z-index: 1000;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.confirmation-popup h2 {
+  font-size: 1.8em;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.confirmation-popup p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.confirmation-popup button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.2s ease;
+}
+
+.confirmation-popup button:hover {
+  background-color: #218838;
+}
+
+/* Background Overlay */
+.confirmation-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Keyframes for Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width:600px) {
+  .horse-card{
+    width: 100% !important;
+  }
+  
+}

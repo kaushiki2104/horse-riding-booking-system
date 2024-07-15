@@ -1,0 +1,25 @@
+{
+  "slides": [
+    {
+      "src": "/assests/horses/horse233.jpg",
+      "alt": "Image 1 for carousel"
+    },
+    {
+      "src": "/assests/horses/horse5.jpg",
+      "alt": "Image 2 for carousel"
+    },
+    {
+      "src": "/assests/horses/horse222.jpg",
+      "alt": "Image 3 for carousel"
+    },
+    {
+      "src": "/assests/horses/horse14.jpg",
+      "alt": "Image 4 for carousel"
+    },
+    {
+      "src": "/assests/horses/horse55.jpg",
+      "alt": "Image 5 for carousel"
+    }
+  ]
+}
+
